@@ -1,0 +1,7 @@
+<h4>Pick a Warning color</h4>
+<div>
+  <input type="radio" name="colors" (click)="color='orange'">Orange
+  <input type="radio" name="colors" (click)="color='red'">Red
+  <input type="radio" name="colors" (click)="color='yellow'">Yellow
+</div>
+<input type="number" [appValidator]="color"/>
